@@ -1,0 +1,152 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.page {
+  margin: 0 auto;
+  background-color: #ffcffc;
+  color: #353a5a;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5px;
+}
+h1,
+h2,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 230px;
+  height: 56px;
+  border: none;
+  background-color: #fa9f42;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color: #fdfdfd;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo__img {
+  width: 170px;
+  height: 22px;
+}
+
+.site-navigation {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 40px;
+  height: 16px;
+  color: #fdfdfd;
+  font-weight: 500;
+}
+
+.site-navigation__link {
+  color: inherit;
+  text-underline-offset: 8px;
+}
+
+.site-navigation__link--active {
+  border-bottom: 2px dashed #fa9f42;
+}
+
+.site-navigation__link:not(.site-navigation__link--active):hover {
+  opacity: 0.7;
+}
+
+.site-navigation__link:not(.site-navigation__link--active):active {
+  opacity: 0.5;
+}
+
+.main-navigation {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 164px;
+}
+
+.page-header {
+  background-color: #10b582;
+  padding-top: 32px;
+  padding-bottom: 40px;
+}
+
+.promo__title {
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 1.2;
+}
+
+.page__main {
+  background-color: #10b582;
+  color: #fdfdfd;
+}
+
+.promo__content {
+  margin-bottom: 50px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.promo__column {
+  margin: 0 auto;
+  width: 542px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.promo__link {
+  display: block;
+  transform: translate(400px);
+  transform: rotate(90deg);
+  color: #fdfdfd;
+  font-family: inherit;
+}
