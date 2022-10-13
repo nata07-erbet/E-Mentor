@@ -322,8 +322,123 @@ a {
   display: grid;
   grid-template-columns: 500px 570px;
   gap: 100px;
+  padding-bottom: 120px;
 }
 
 .teachers__button-see-all {
   margin-top: 50px;
+}
+
+.benefit {
+  padding-top: 120px;
+  padding-bottom: 110px;
+  background-color: #10b582;
+  color: #fdfdfd;
+}
+
+.benefit__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.benefit__description-column {
+  width: 570px;
+}
+
+.benefit__title {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 1.2;
+}
+
+.benefit__description {
+  margin-bottom: 50px;
+  padding-right: 80px;
+}
+
+.benefit__img-column {
+  padding-top: 30px;
+  padding-right: 30px;
+}
+
+.benefit__content--reverse .benefit__img-column {
+  order: -1;
+}
+
+.courses {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 111px;
+}
+
+.courses__list {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.courses__item {
+  padding: 20px;
+}
+
+.courses__title {
+  margin-bottom: 60px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 1;
+}
+
+.courses_link {
+  color: inherit;
+}
+
+.courses_image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.courses__subtitle {
+  padding-top: 5px;
+}
+
+.courses__button {
+  background-color: #10b582;
+}
+
+.asside__banner {
+  margin: 0 auto;
+  background-image: url('../banner.jpg');
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 578px;
+  object-fit: contain;
+}
+
+.banner__offer {
+  display: flex;
+  flex-direction: column;
+  padding: 124px 197px 309px 735px;
+}
+
+.banner_title {
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.banner__description {
+  margin-bottom: 50px;
+}
+
+.banner__button {
+  justify-items: flex-start;
 }
